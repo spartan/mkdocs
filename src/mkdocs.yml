@@ -1,0 +1,19 @@
+site_name: MkDocs
+theme:
+  name: 'material'
+  palette:
+      primary: 'blue'
+      accent: 'blue'
+markdown_extensions:
+  - codehilite
+  - admonition
+  - footnotes
+  - 'pymdownx.emoji'
+  - 'pymdownx.tasklist'
+  - 'pymdownx.details'
+  - toc:
+      permalink: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+pages:
+  - Intro: index.md

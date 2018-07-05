@@ -1,0 +1,29 @@
+{
+    "name": "spartan/mkdocs",
+    "description": "Spartan MkDocs starter-kit",
+    "type": "library",
+    "keywords": [
+        "package",
+        "spartan",
+        "mkdocs"
+    ],
+    "homepage": "https://spartanphp.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Iulian N.",
+            "email": "iulian@spartanphp.com",
+            "homepage": "https://spartanphp.com",
+            "role": "developer"
+        }
+    ],
+    "support": {
+        "email": "support@spartanphp.com",
+        "docs": "https://docs.spartanphp.com"
+    },
+    "require": {
+        "php": ">=7.0"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

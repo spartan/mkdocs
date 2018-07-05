@@ -1,0 +1,9 @@
+/.nbproject
+/.idea
+/.vagrant
+/vendor
+/tests/report
+composer.lock
+*.phar
+.env
+site/
