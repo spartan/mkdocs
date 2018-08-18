@@ -15,5 +15,5 @@ markdown_extensions:
       permalink: true
   - pymdownx.tasklist:
       custom_checkbox: true
-pages:
+nav:
   - Intro: index.md
