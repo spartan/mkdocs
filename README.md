@@ -1,6 +1,6 @@
 # MKdocs
 
-Build beautiful documentation with [MKdocs](https://www.mkdocs.org) and [material design](https://squidfunk.github.io/mkdocs-material).
+Quickly bootstrap beautiful documentation with [MKdocs](https://www.mkdocs.org) and [material design](https://squidfunk.github.io/mkdocs-material).
 
 
 ## Quick start
@@ -58,5 +58,5 @@ docker build . -t spartan/mkdocs
 docker run --rm -p 8000:8000 -v $(pwd):/docs spartan/mkdocs mkdocs serve
 
 # run the image with bind address to container's IP
- docker run --rm -p 8000:8000 -v $(pwd):/docs spartan/mkdocs mkdocs serve -a 172.17.0.2:8000
+docker run --rm -p 8000:8000 -v $(pwd):/docs spartan/mkdocs mkdocs serve -a 172.17.0.2:8000
 ```
